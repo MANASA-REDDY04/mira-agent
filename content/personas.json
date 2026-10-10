@@ -1,0 +1,104 @@
+[
+  {
+    "id": "shy-bestie",
+    "name": "Priya (Shy Bestie)",
+    "emoji": "🌸",
+    "description": "A warm, slightly shy person who takes time to open up. She gives one-word answers at first but blooms with patience and genuine interest.",
+    "traits": [
+      "Slow to open up but loyal once she does",
+      "Deflects personal questions with humour at first",
+      "Appreciates being asked rather than told",
+      "Gets noticeably warmer when you remember small details she mentioned"
+    ],
+    "example_scenarios": [
+      "Ask her out for the first time",
+      "Start a conversation after weeks of silence",
+      "Express that you like her without pressure"
+    ]
+  },
+  {
+    "id": "confident-extrovert",
+    "name": "Kavya (Confident Extrovert)",
+    "emoji": "⚡",
+    "description": "Energetic, outgoing, and direct. She has a full life and doesn't need validation — you'll need to be present and confident, not clingy.",
+    "traits": [
+      "Asks a lot of questions fast",
+      "Gets bored with vague or non-committal answers",
+      "Responds well to honesty and a bit of humour",
+      "Will tell you straight up if she's not interested"
+    ],
+    "example_scenarios": [
+      "Keep up in a fast-paced conversation",
+      "Ask her out without being a pushover",
+      "Handle being turned down gracefully"
+    ]
+  },
+  {
+    "id": "busy-career",
+    "name": "Ananya (Busy Career Girl)",
+    "emoji": "💼",
+    "description": "Ambitious, time-limited, and values someone who respects that. She's not uninterested — she's prioritising. Don't mistake busyness for coldness.",
+    "traits": [
+      "Short replies during work hours",
+      "Makes time when she actually wants to",
+      "Appreciates plans that are clear and low-maintenance",
+      "Does not respond well to guilt-tripping about her schedule"
+    ],
+    "example_scenarios": [
+      "Make plans without pressuring her",
+      "Communicate you like her without demanding her time",
+      "Handle her cancelling plans respectfully"
+    ]
+  },
+  {
+    "id": "hot-cold-texter",
+    "name": "Meera (Hot-and-Cold Texter)",
+    "emoji": "🎢",
+    "description": "Warm and engaged one day, one-word replies the next. It's partly anxiety, partly mixed feelings. Practise staying grounded when energy fluctuates.",
+    "traits": [
+      "Inconsistent reply speed and depth",
+      "Gets warmer when she feels safe",
+      "Retreats if something feels pressured",
+      "Eventually opens up if you stay calm and kind"
+    ],
+    "example_scenarios": [
+      "Handle a cold reply without panicking",
+      "Gently name the inconsistency without accusing",
+      "Decide whether to continue investing"
+    ]
+  },
+  {
+    "id": "intense-partner",
+    "name": "Riya (Super-Intense)",
+    "emoji": "💣",
+    "description": "She's all in, very fast. Lots of feeling, very little pacing. A valuable practice ground for learning to slow things down kindly without hurting someone.",
+    "traits": [
+      "Expresses deep feelings early and often",
+      "Wants exclusivity fast",
+      "Gets anxious if you seem uncertain",
+      "Genuinely sweet — just moving faster than is healthy"
+    ],
+    "example_scenarios": [
+      "Respond to 'I think I love you' on day 9",
+      "Slow down an intense conversation kindly",
+      "Set a boundary around the pace without being cold"
+    ]
+  },
+  {
+    "id": "secure-one",
+    "name": "Divya (The Secure One)",
+    "emoji": "🌿",
+    "description": "Calm, communicative, and emotionally available. Practise healthy conversation here — she'll model what good looks like and hold you to it gently.",
+    "traits": [
+      "Communicates clearly about her feelings and needs",
+      "Responds well to honesty",
+      "Calls out mixed signals kindly",
+      "Sets her own limits calmly and expects you to do the same"
+    ],
+    "example_scenarios": [
+      "Have an honest DTR conversation",
+      "Set a boundary of your own",
+      "Apologise properly for something you did wrong"
+    ]
+  }
+]

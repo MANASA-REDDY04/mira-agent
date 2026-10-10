@@ -1,0 +1,195 @@
+[
+  {
+    "id": "love-bomber",
+    "name": "The Love Bomber",
+    "subtitle": "Too much, too fast",
+    "emoji": "💣",
+    "color_class": "archetype-red",
+    "early_signs": [
+      "Says 'I love you' or 'you're my person' within days or weeks",
+      "Constant texting — feels like surveillance if you don't reply fast",
+      "Grand romantic gestures very early (gifts, planning future trips)",
+      "Claims you're different from everyone they've ever met",
+      "Pushes for exclusivity before you've barely met"
+    ],
+    "how_it_feels": "Intoxicating at first — like you're the main character of a movie. Then slowly unsettling, like the movie is moving too fast.",
+    "green_flags": [],
+    "red_flags": [
+      "Gets upset or withdrawn when you don't match their intensity",
+      "Uses the grand gestures to guilt you into reciprocating feelings",
+      "Isolates you from friends/family ('I want you all to myself')",
+      "The intensity disappears suddenly if you set any limit"
+    ],
+    "how_to_respond": "You can like someone AND slow things down. Try: 'I really enjoy spending time with you, and I need things to move a bit more gradually — can we do that?' If they respect it, great. If they get angry or sad-manipulate you, that tells you everything.",
+    "nuance_note": "Not everyone who's intense is a Love Bomber. Some people are just very expressive and enthusiastic. The key difference is: do they respect your pace when you communicate it?"
+  },
+  {
+    "id": "slow-burner",
+    "name": "The Slow Burner",
+    "subtitle": "Depth over drama",
+    "emoji": "🕯️",
+    "color_class": "archetype-green",
+    "early_signs": [
+      "Takes time before they open up emotionally",
+      "Consistent but not overwhelming — texts regularly, doesn't flood",
+      "Actions match words over time, not all at once",
+      "Might seem reserved early but becomes warmer with trust"
+    ],
+    "how_it_feels": "Comfortable and real, like something that grows naturally. Can feel uncertain early on because there's no dramatic flash.",
+    "green_flags": [
+      "Shows up reliably over weeks and months",
+      "Opens up gradually and authentically",
+      "Respects your pace as well as their own",
+      "Doesn't play games — just naturally cautious with their heart"
+    ],
+    "red_flags": [
+      "Using 'slow burn' as an excuse to avoid any real emotional commitment indefinitely",
+      "Never moves forward even when trust is clearly established"
+    ],
+    "how_to_respond": "Give it time. Don't mistake quietness for disinterest. Slow Burners often become the most consistent and genuine partners. Check in with words if you feel unsure.",
+    "nuance_note": "Slow Burners are often mistaken for people who aren't interested. The difference: do they keep showing up, even if quietly?"
+  },
+  {
+    "id": "hot-and-cold",
+    "name": "The Hot-and-Cold",
+    "subtitle": "The emotional rollercoaster",
+    "emoji": "🎢",
+    "color_class": "archetype-red",
+    "early_signs": [
+      "Very intense and present one week, distant and unresponsive the next",
+      "Their availability depends entirely on their mood",
+      "Plans get made and cancelled in cycles",
+      "Messages shift from warm to cold without explanation"
+    ],
+    "how_it_feels": "Like being in an emotional whirlpool. You're never sure where you stand, so you work extra hard to get the 'hot' version back.",
+    "green_flags": [],
+    "red_flags": [
+      "The coldness comes as punishment or after you set a boundary",
+      "You're changing your behaviour to avoid triggering the cold phase",
+      "They never acknowledge the pattern when you bring it up"
+    ],
+    "how_to_respond": "Name it calmly: 'I've noticed things feel really warm sometimes and then I don't hear from you for days — can we talk about that?' Their reaction is your data. Genuine care = willingness to discuss. Dismissal = information.",
+    "nuance_note": "Sometimes Hot-and-Cold behaviour comes from anxiety or avoidant attachment — it's not always intentional. But regardless of cause, you deserve consistency."
+  },
+  {
+    "id": "almost-something",
+    "name": "The Almost-Something",
+    "subtitle": "The one that never quite lands",
+    "emoji": "🌙",
+    "color_class": "archetype-yellow",
+    "early_signs": [
+      "Everything feels relationship-ish but there's always a reason it's 'not the right time'",
+      "Acts like a partner privately but doesn't want a label publicly",
+      "Has genuine feelings but a deep fear of commitment",
+      "May use ambiguity to protect themselves from risk"
+    ],
+    "how_it_feels": "Like standing at a door that's almost open. Hopeful and frustrating in equal measure.",
+    "green_flags": [
+      "Genuinely cares about you and shows it",
+      "Is honest about their fear of commitment (even if that's hard to hear)",
+      "Is willing to have the conversation, even if it's scary for them"
+    ],
+    "red_flags": [
+      "Uses ambiguity manipulatively to keep you available while they decide",
+      "Refuses any conversation about 'what are we' indefinitely",
+      "Expects relationship-level commitment from you without offering it back"
+    ],
+    "how_to_respond": "Have the DTR conversation. Something like: 'I've been enjoying our time together and I want to be honest — I'm looking for something real. Are you in a place for that?' Then listen to their answer carefully, not just their words.",
+    "nuance_note": "Not every Almost-Something is stringing you along. Some people are genuinely scared. The question is: are they scared AND willing to work on it?"
+  },
+  {
+    "id": "bestie-zone-keeper",
+    "name": "The Bestie-Zone Keeper",
+    "subtitle": "Deeply valued — as a friend",
+    "emoji": "👯",
+    "color_class": "archetype-yellow",
+    "early_signs": [
+      "Introduces you to their inner circle as a friend very early",
+      "Genuinely loves spending time with you but in a friendly way",
+      "Doesn't mirror romantic signals even when you give them",
+      "Talks about other people they're interested in"
+    ],
+    "how_it_feels": "Confusing when you have feelings. Their warmth feels like something more — until it doesn't.",
+    "green_flags": [
+      "Values you genuinely and treats you well",
+      "Is honest about where they stand if asked directly",
+      "Keeps the friendship solid even when things are complicated"
+    ],
+    "red_flags": [
+      "Keeps you emotionally close while pursuing others — using your support without acknowledging your feelings",
+      "Gives mixed signals that seem intentional"
+    ],
+    "how_to_respond": "If you have feelings, they deserve to be expressed once — clearly and without pressure. 'I've developed feelings for you and I wanted to be honest, even if it changes things.' Their response is information. A friendship built on hidden feelings isn't fair to either of you.",
+    "nuance_note": "Rejection is valid and not a personal failing. The Bestie-Zone Keeper isn't doing anything wrong by not having romantic feelings — it's just life. Sometimes friendship becomes something real later; sometimes it doesn't."
+  },
+  {
+    "id": "showboater",
+    "name": "The Showboater",
+    "subtitle": "The highlight reel, all day",
+    "emoji": "✨",
+    "color_class": "archetype-yellow",
+    "early_signs": [
+      "Leads with credentials, wealth, or status in early conversations",
+      "Stories about themselves dominate the conversation",
+      "Name-drops often — places they've been, people they know, things they own",
+      "Gets noticeably less engaged when the topic isn't about them"
+    ],
+    "how_it_feels": "Impressive at first. Tiring very quickly.",
+    "green_flags": [
+      "Can laugh at themselves when pointed out gently",
+      "Has substance beneath the performance — the showboating comes from nerves, not narcissism"
+    ],
+    "red_flags": [
+      "Never asks questions about you",
+      "Gets defensive or cold when the spotlight shifts",
+      "Uses status or gifts to create a power imbalance"
+    ],
+    "how_to_respond": "See if they can hold a conversation that's equally about you. Ask questions and notice if they engage or redirect. You can also gently name it: 'I'd love to hear about you — the real stuff, not just the highlights.'",
+    "nuance_note": "Some Showboating is just nerves or cultural habit. The important question: do they actually care to know YOU?"
+  },
+  {
+    "id": "the-ghost",
+    "name": "The Ghost",
+    "subtitle": "Now you see them, now you don't",
+    "emoji": "👻",
+    "color_class": "archetype-red",
+    "early_signs": [
+      "Goes quiet without explanation for days",
+      "Always has vague reasons for disappearing",
+      "Patterns of reappearing as if nothing happened",
+      "Never initiates contact consistently"
+    ],
+    "how_it_feels": "Like being suspended in uncertainty. You check your phone too much. You second-guess everything you said.",
+    "green_flags": [],
+    "red_flags": [
+      "Disappears specifically after moments of depth or vulnerability",
+      "Re-appears whenever they want something — attention, support, company",
+      "Knows you're bothered by the silence and continues anyway"
+    ],
+    "how_to_respond": "One follow-up is okay. Two is too many. After one unanswered check-in, stop reaching out. Your peace matters more than their comfort. If they come back, decide based on whether they acknowledge the disappearance.",
+    "nuance_note": "Some people ghost because of their own anxiety and avoidance — not because of you. That doesn't make it okay, but it helps to not take it personally."
+  },
+  {
+    "id": "the-secure-one",
+    "name": "The Secure One",
+    "subtitle": "Rare. Real. Worth it.",
+    "emoji": "🌿",
+    "color_class": "archetype-green",
+    "early_signs": [
+      "Communicates clearly without playing games",
+      "Respects your boundaries without making it weird",
+      "Is honest about what they want — even when it's scary",
+      "Doesn't need to be constantly reassured, and doesn't withhold reassurance from you"
+    ],
+    "how_it_feels": "Calm. Surprisingly unfamiliar if you're used to drama. Like breathing out.",
+    "green_flags": [
+      "Brings up difficult topics with care, not as weaponised 'honesty'",
+      "Has their own full life and doesn't need you to complete them",
+      "Celebrates your growth and independence",
+      "Apologises when they're wrong — genuinely, not strategically"
+    ],
+    "red_flags": [],
+    "how_to_respond": "Meet their energy. Don't self-sabotage by creating drama because calm feels unfamiliar. Secure people are attracted to people who are doing the work on themselves.",
+    "nuance_note": "Nobody is perfectly Secure all the time — we all have harder moments. The Secure One's difference is: they're willing to reflect, communicate, and grow."
+  }
+]

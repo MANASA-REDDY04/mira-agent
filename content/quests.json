@@ -1,0 +1,365 @@
+[
+  {
+    "id": "haha-text",
+    "title": "The 'haha' Reply",
+    "setup": "You texted her something heartfelt after your first proper hangout. Six hours later she replied: 'haha'. That's it. Just 'haha'. What do you do?",
+    "xp_reward": 75,
+    "tags": ["text-decoding", "mixed-signals", "early-stages"],
+    "nodes": [
+      {
+        "id": "start",
+        "text": "You texted her something heartfelt after your first proper hangout. Six hours later she replied: 'haha'. That's it. Just 'haha'. What do you do?",
+        "choices": [
+          { "id": "a", "text": "Double text: 'haha? That's all I get? 😂'", "next": "double-text" },
+          { "id": "b", "text": "Leave it — she can take the lead from here", "next": "leave-it" },
+          { "id": "c", "text": "Reply naturally: 'lol okay then 😄 how was the rest of your day?'", "next": "natural-reply" },
+          { "id": "d", "text": "Send a meme to reset the vibe", "next": "meme-reset" }
+        ]
+      },
+      {
+        "id": "double-text",
+        "text": "She takes 2 more hours and replies 'haha nothing just tired'. Now you feel like you made it weird.",
+        "choices": [
+          { "id": "a", "text": "'Got it, no worries. Rest well 🙂'", "next": "graceful-exit" },
+          { "id": "b", "text": "Keep pushing: 'Tired from what?'", "next": "pushed-too-hard" }
+        ]
+      },
+      {
+        "id": "leave-it",
+        "text": "Good instinct to not panic. The next day she texts first: 'sorry for the dry reply yesterday, was distracted.' Now she's asking what you're up to this weekend.",
+        "choices": [
+          { "id": "a", "text": "Answer casually and suggest something fun", "next": "win-patient" }
+        ]
+      },
+      {
+        "id": "natural-reply",
+        "text": "She replies in 20 minutes with actual sentences. Conversation flows. Leaving space without being passive worked.",
+        "choices": [
+          { "id": "a", "text": "Keep the conversation going naturally", "next": "win-natural" }
+        ]
+      },
+      {
+        "id": "meme-reset",
+        "text": "She replies with a meme back and suddenly you're both laughing. Crisis averted.",
+        "choices": [
+          { "id": "a", "text": "Ride the good energy", "next": "win-meme" }
+        ]
+      },
+      {
+        "id": "graceful-exit",
+        "outcome": "good",
+        "text": "You handled it well. One 'haha' doesn't define the whole situation. You showed care without pressure.",
+        "choices": []
+      },
+      {
+        "id": "pushed-too-hard",
+        "outcome": "learn",
+        "text": "She goes quiet again. Lesson: one dry text doesn't require an interrogation. Sometimes people are just tired.",
+        "choices": []
+      },
+      {
+        "id": "win-patient",
+        "outcome": "great",
+        "text": "Patience > panic. You gave her space and she came back. That's how it works when someone's actually interested.",
+        "choices": []
+      },
+      {
+        "id": "win-natural",
+        "outcome": "great",
+        "text": "Not reading too much into a 'haha' and keeping the conversation alive — that's emotional intelligence right there.",
+        "choices": []
+      },
+      {
+        "id": "win-meme",
+        "outcome": "great",
+        "text": "Using humour to reset a weird vibe without making it a big deal. Smoothly done.",
+        "choices": []
+      }
+    ]
+  },
+  {
+    "id": "i-love-you-day9",
+    "title": "Day 9: I Love You",
+    "setup": "You've been talking to her for 9 days. It's been incredible — she's funny, warm, and you feel a real connection. Then she texts: 'I think I'm falling in love with you 💗'. How do you respond?",
+    "xp_reward": 100,
+    "tags": ["love-bombing", "pace", "communication", "season-3"],
+    "nodes": [
+      {
+        "id": "start",
+        "text": "9 days in. She says she's falling in love with you. What do you do?",
+        "choices": [
+          { "id": "a", "text": "Say it back — you feel a strong connection too!", "next": "said-it-back" },
+          { "id": "b", "text": "Panic and go quiet", "next": "went-quiet" },
+          { "id": "c", "text": "'That means a lot. I really like you too — I want us to get to know each other for real before putting those words on it though.'", "next": "honest-kind" },
+          { "id": "d", "text": "'lol it's been 9 days'", "next": "dismissive" }
+        ]
+      },
+      {
+        "id": "said-it-back",
+        "text": "She's overjoyed. Over the next week she starts talking about meeting your parents, your future together, wanting to be exclusive. You're feeling a little overwhelmed.",
+        "choices": [
+          { "id": "a", "text": "Go along with it — don't want to hurt her feelings", "next": "went-along" },
+          { "id": "b", "text": "Be honest: 'I need us to slow down a bit. Can we talk?'", "next": "slowed-down" }
+        ]
+      },
+      {
+        "id": "went-quiet",
+        "text": "She sends 3 more messages asking if you're okay. Then: 'did I say something wrong?' You've created more anxiety for both of you.",
+        "choices": [
+          { "id": "a", "text": "Explain honestly: 'I was surprised — I need a moment.'", "next": "honest-delayed" },
+          { "id": "b", "text": "Keep ignoring it", "next": "ghosted-her" }
+        ]
+      },
+      {
+        "id": "honest-kind",
+        "outcome": "great",
+        "text": "She takes a breath and appreciates the honesty. 'You're right. I get intense fast. I'll try to pace myself.' You just handled love-bombing gently and respectfully. That's a real skill.",
+        "choices": []
+      },
+      {
+        "id": "dismissive",
+        "outcome": "learn",
+        "text": "She's hurt and goes quiet. Even if the pace was off, her feelings were real. Dismissing them wasn't kind. Honesty with care works better than a cold joke.",
+        "choices": []
+      },
+      {
+        "id": "went-along",
+        "outcome": "learn",
+        "text": "Three weeks later you feel suffocated. You stayed quiet to avoid hurting her and ended up hurting her more. Sooner is kinder.",
+        "choices": []
+      },
+      {
+        "id": "slowed-down",
+        "outcome": "great",
+        "text": "Hard conversation. But an important one. If she respects it, the connection gets healthier. If she gets upset and refuses, that's important information too.",
+        "choices": []
+      },
+      {
+        "id": "honest-delayed",
+        "outcome": "good",
+        "text": "Late is better than never. She appreciates the explanation. Try to be more present in the moment next time instead of disappearing.",
+        "choices": []
+      },
+      {
+        "id": "ghosted-her",
+        "outcome": "learn",
+        "text": "She's confused and hurt. Ghosting when things get emotionally intense isn't protecting either of you — it's avoidance. Communication, even when hard, is always better.",
+        "choices": []
+      }
+    ]
+  },
+  {
+    "id": "friendzone-dtrmiss",
+    "title": "The DTR Miss",
+    "setup": "You've been close friends with her for months. You've been on long calls, she confides in you, you've had moments that felt like more. You've never DTR'd. She messages: 'I want to tell you something — I've started seeing someone and I'm SO excited. He asked me out yesterday!'",
+    "xp_reward": 100,
+    "tags": ["friendzone", "DTR", "clarity", "season-2"],
+    "nodes": [
+      {
+        "id": "start",
+        "text": "She tells you she's seeing someone. You had feelings you never expressed. What do you do?",
+        "choices": [
+          { "id": "a", "text": "Be happy for her and support her genuinely", "next": "genuine-support" },
+          { "id": "b", "text": "Tell her right now that you had feelings", "next": "confess-now" },
+          { "id": "c", "text": "Go cold and distant", "next": "went-cold" },
+          { "id": "d", "text": "Say congrats but then quietly process how you feel before deciding anything", "next": "process-first" }
+        ]
+      },
+      {
+        "id": "genuine-support",
+        "outcome": "great",
+        "text": "Hard but right. You can process your feelings privately or with Mira. Friendship is real even when feelings are complicated. And you learned: next time, say something earlier.",
+        "choices": []
+      },
+      {
+        "id": "confess-now",
+        "text": "She's thrown off. 'I... I didn't know. I'm sorry, I thought we were just friends.' There's an awkward silence. How do you follow up?",
+        "choices": [
+          { "id": "a", "text": "'It's okay — I should have said something earlier. I'm happy for you.'", "next": "graceful-confess" },
+          { "id": "b", "text": "Make her feel guilty for not knowing", "next": "blamed-her" }
+        ]
+      },
+      {
+        "id": "went-cold",
+        "outcome": "learn",
+        "text": "She notices and is confused. You lose both the friendship and the chance at more. Your feelings are valid — but withdrawing silently isn't fair to her.",
+        "choices": []
+      },
+      {
+        "id": "process-first",
+        "outcome": "good",
+        "text": "Smart move. Congratulate her genuinely, then take space to process. You might be able to maintain the friendship — or decide that's too hard right now. Both are valid.",
+        "choices": []
+      },
+      {
+        "id": "graceful-confess",
+        "outcome": "good",
+        "text": "Honest and kind. It's uncomfortable but she respects your honesty. The friendship might survive this. Lesson: express feelings while there's still space to do so.",
+        "choices": []
+      },
+      {
+        "id": "blamed-her",
+        "outcome": "learn",
+        "text": "She couldn't have known feelings you never expressed. This one's on the communication gap, not on her. Be responsible for your own unspoken feelings.",
+        "choices": []
+      }
+    ]
+  },
+  {
+    "id": "first-apology",
+    "title": "The Apology You Owe",
+    "setup": "A girl you dated 6 months ago texted you out of nowhere: 'Hey. I've been thinking about how things ended. I was really hurt. You didn't really explain anything.' She was your Season 1. How do you respond?",
+    "xp_reward": 125,
+    "tags": ["accountability", "apology", "communication", "season-1"],
+    "nodes": [
+      {
+        "id": "start",
+        "text": "Your Season 1 reaches out. She was hurt. What do you do?",
+        "choices": [
+          { "id": "a", "text": "Apologise genuinely and take accountability", "next": "real-apology" },
+          { "id": "b", "text": "Get defensive: 'I never meant to hurt you'", "next": "defensive" },
+          { "id": "c", "text": "Leave her on read", "next": "left-on-read" },
+          { "id": "d", "text": "'Let's meet up and talk properly'", "next": "meet-up" }
+        ]
+      },
+      {
+        "id": "real-apology",
+        "outcome": "great",
+        "text": "You said: 'I'm sorry for how I handled things. You deserved a proper conversation and I didn't give you that. That wasn't fair.' She says: 'Thank you. That means a lot.' You feel lighter. This is what growth looks like.",
+        "choices": []
+      },
+      {
+        "id": "defensive",
+        "text": "She replies: 'I'm not saying you meant to. I'm saying I was hurt.' You're still being defensive. How do you continue?",
+        "choices": [
+          { "id": "a", "text": "Take a breath and actually hear her", "next": "heard-her" },
+          { "id": "b", "text": "Double down: 'It takes two people'", "next": "doubled-down" }
+        ]
+      },
+      {
+        "id": "left-on-read",
+        "outcome": "learn",
+        "text": "She deserved a response. Leaving her on read again is doing exactly what hurt her the first time. Courage looks like responding even when it's uncomfortable.",
+        "choices": []
+      },
+      {
+        "id": "meet-up",
+        "text": "She says she'd rather keep it to text for now. She's not ready to see you in person. Do you push for a meeting or respect her terms?",
+        "choices": [
+          { "id": "a", "text": "Respect it: 'Of course. I'm here when you want to talk.'", "next": "respected-her-terms" },
+          { "id": "b", "text": "Keep pushing for in-person", "next": "pushed-anyway" }
+        ]
+      },
+      {
+        "id": "heard-her",
+        "outcome": "good",
+        "text": "You apologised properly in the end, even if it took a moment. Better late than never — and noticeably better than never.",
+        "choices": []
+      },
+      {
+        "id": "doubled-down",
+        "outcome": "learn",
+        "text": "This conversation isn't about blame allocation. It's about acknowledging her pain. 'It takes two' is true — but it's not the right response to an apology request.",
+        "choices": []
+      },
+      {
+        "id": "respected-her-terms",
+        "outcome": "great",
+        "text": "Honouring how she wants to process is part of the apology. She sets the terms of a conversation about her own pain. You respected that. Growth.",
+        "choices": []
+      },
+      {
+        "id": "pushed-anyway",
+        "outcome": "learn",
+        "text": "She needs to feel safe and in control of this conversation. Pushing for your preferred format puts your comfort over her needs — which is the exact pattern that hurt her.",
+        "choices": []
+      }
+    ]
+  },
+  {
+    "id": "boundary-moment",
+    "title": "She Said No To The Plans",
+    "setup": "You've been seeing someone for about a month. You planned a day out — tickets bought, reservations made. The morning of, she texts: 'Hey, I'm not feeling great today. Can we reschedule?' How do you respond?",
+    "xp_reward": 75,
+    "tags": ["boundaries", "respect", "communication", "disappointment"],
+    "nodes": [
+      {
+        "id": "start",
+        "text": "Plans cancelled the morning of. Tickets bought. How do you handle it?",
+        "choices": [
+          { "id": "a", "text": "'No worries at all. Hope you feel better! 🙂'", "next": "gracious" },
+          { "id": "b", "text": "'Seriously? I bought tickets.' (let her know you're annoyed)", "next": "expressed-frustration" },
+          { "id": "c", "text": "Say it's fine but actually sulk and go cold for a week", "next": "passive-aggressive" },
+          { "id": "d", "text": "'I'm a bit disappointed, honestly — but feel better first. Let's rebook when you're up for it.'", "next": "honest-kind" }
+        ]
+      },
+      {
+        "id": "gracious",
+        "outcome": "good",
+        "text": "Kind and no-pressure. She appreciates it. You'll rebook. One cancellation doesn't define a pattern — just watch if it becomes one.",
+        "choices": []
+      },
+      {
+        "id": "expressed-frustration",
+        "outcome": "learn",
+        "text": "She feels guilty and defensive. You're allowed to be disappointed, but this came out as an accusation. Try naming your feeling instead of blaming: 'I'm disappointed' hits differently than 'I bought tickets.'",
+        "choices": []
+      },
+      {
+        "id": "passive-aggressive",
+        "outcome": "learn",
+        "text": "She can feel the coldness. Now you've added confusion and low-key punishment to a situation that didn't need either. Say what you mean.",
+        "choices": []
+      },
+      {
+        "id": "honest-kind",
+        "outcome": "great",
+        "text": "This is emotional maturity: honest about your feelings, not punishing her for having needs. She feels seen and not guilty. You feel like yourself. That's the move.",
+        "choices": []
+      }
+    ]
+  },
+  {
+    "id": "wyd-2am",
+    "title": "The 2AM 'Wyd'",
+    "setup": "Someone you went on 2 dates with (things were casual, never DTR'd) sends you a 'wyd?' at 2:14 AM. You like her but you also know what this probably is.",
+    "xp_reward": 75,
+    "tags": ["self-worth", "clarity", "texting", "communication"],
+    "nodes": [
+      {
+        "id": "start",
+        "text": "2AM 'wyd?' from a maybe-not-so-serious someone. What do you do?",
+        "choices": [
+          { "id": "a", "text": "Reply immediately and engage", "next": "replied-immediately" },
+          { "id": "b", "text": "Ignore it and reply in the morning", "next": "replied-morning" },
+          { "id": "c", "text": "'Sleeping lol. You okay?'", "next": "check-in" },
+          { "id": "d", "text": "'Hey, not really a late-night texter — catch you tomorrow?'", "next": "set-tone" }
+        ]
+      },
+      {
+        "id": "replied-immediately",
+        "outcome": "neutral",
+        "text": "You had a good conversation, actually. But you also set a precedent that you're available at 2AM whenever she's bored. That might be fine — or it might matter later. Know what you're agreeing to.",
+        "choices": []
+      },
+      {
+        "id": "replied-morning",
+        "outcome": "good",
+        "text": "You slept. She gets a reply in the morning. Normal. If she has a problem with that, that's its own conversation.",
+        "choices": []
+      },
+      {
+        "id": "check-in",
+        "outcome": "good",
+        "text": "Kind response — checks if she's genuinely okay without fully engaging the late-night energy. Shows care without dropping your whole night.",
+        "choices": []
+      },
+      {
+        "id": "set-tone",
+        "outcome": "great",
+        "text": "Clear and warm. You've communicated a preference without being rude. This is what self-respect looks like in text form.",
+        "choices": []
+      }
+    ]
+  }
+]
